@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {//编译器的配置
+        "target":"es5",//编译成es5规范的一个脚本
+        "module": "commonjs",//模块使用的规范
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "build",//编译好的js文件放置的目录
+        "lib": [
+            "es6"//开发的时候使用es6的语法
+        ]
+    },
+    "exclude": [
+        "node_modules"//编译时排除的文件列表
+    ]
+}
